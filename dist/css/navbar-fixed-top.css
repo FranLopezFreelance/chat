@@ -1,0 +1,113 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 70px;
+  margin-bottom: 150px;
+}
+
+.estadoChatON {
+	font-size: 0.7em;
+	color: #74DF00;
+}
+
+.estadoChatOFF {
+	font-size: 0.7em;
+	color: gray;
+}
+
+#cajaMensaje {
+	width: 100%;
+	margin: 0px!important;
+	padding: 0px!important;
+	background: #6E6E6E;
+	height: 150px;
+	position: fixed;
+  	bottom: 0;
+  	padding-top: 25px;
+}
+
+#ventanaMensaje {
+	margin-top: 25px;
+	padding: 10px;
+}
+
+.cajaTextArea {
+	padding-top: 25px;
+}
+
+#submit {
+	margin-top: 15px;
+}
+
+/* MENSAJES */
+#chat {
+	background: #FAFAFA!important;
+	border: 1px solid #D8D8D8;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 620px;
+	padding: 10px!important;
+}
+
+.mensajeMio {
+	float: right;
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #DEDBD8;
+	border-radius: 5px;
+	background: #F1E2D4;
+	clear: both!important;
+}
+
+.mensajeOtro {
+	float: left;
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #DDDDD6;
+	border-radius: 5px;
+	background: #FFFFE9;
+	clear: both!important;
+}
+
+.noMensaje {
+	color: #BDBDBD;
+}
+
+.horaMensaje {
+	color: #A4A4A4;
+	font-size: 0.8em;
+}
+
+.nuevoMensaje {
+	color: #fff;
+	background: #D54C4C;
+	padding: 1px 3px;
+	font-size: 0.6em;
+	font-weight: bold;
+	margin-bottom: 5px;
+	border-radius: 25px;
+}
+
+.tilde {
+	margin-left: 15px;
+	opacity: 0.4;
+}
+
+.mensajesNoLeidos {
+	width: 0!important;
+	height: 0!important;
+	visivility: hidden;
+}
+
+.cargando {
+	opacity: 0.3;
+	width: 410px;
+	magin: 100px auto;
+}
+
+.mensajeSinLeer {
+	visibility: hidden;
+}
